@@ -56,5 +56,5 @@ body{
     box-shadow: 0 37px 20px 20px var(--bs-body-color);
     filter: brightness(100%) contrast(100%) saturate(100%);
     background: rgba(255, 255, 255, .49) !important;
-    margin-top: 21px
+    margin: 21px 10px 0 10px;
 }

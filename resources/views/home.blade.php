@@ -68,7 +68,7 @@
     </div>
     <div class="d-flex flex-column align-items-center align-content-center justify-content-xxl-center" id="download" style="text-align: center;height: 515px;box-shadow: 0px -30px 20px 17px var(--bs-body-bg), 0px 67px 20px 11px var(--bs-body-bg);background: var(--bs-body-bg);overflow: visible;transform: perspective(2500px);margin: 0px;position: relative;backdrop-filter: contrast(101%);">
         <img src="{{ Vite::asset('resources/images/logo.png') }}" width="277" height="284" style="width: 313px;height: 313px;backdrop-filter: invert(0%);">
-        <a class="btn btn-primary text-center" role="button" style="position: sticky;background: var(--bs-link-color);padding: 44px;border-radius: 40px;font-size: 38px;" href="coolblue.nl">
+        <a class="btn btn-primary text-center" role="button" style="position: sticky;background: var(--bs-link-color);padding: 44px;border-radius: 40px;font-size: 38px;" href="{{ route('download_app') }}">
             Download
         </a>
     </div>
